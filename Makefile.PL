@@ -9,9 +9,9 @@ $eumm_version =~ s/_//;
 
 WriteMakefile(
     NAME                => 'EcommerceInnovation',
-    AUTHOR              => q{YOUR NAME <youremail@example.com>},
+    AUTHOR              => q{Stefan Hornburg (Racke) <racke@linuxia.de>},
     VERSION_FROM        => 'lib/EcommerceInnovation.pm',
-    ABSTRACT            => 'YOUR APPLICATION ABSTRACT',
+    ABSTRACT            => 'Ecommerce Innovation - Conference Website Application',
     ($eumm_version >= 6.3001
       ? ('LICENSE'=> 'perl')
       : ()),
