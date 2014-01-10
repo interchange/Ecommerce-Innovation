@@ -1,0 +1,19 @@
+/logs
+Makefile
+/environments
+/blib
+/pm_to_blib
+/sessions
+
+.#*
+\#*#
+*.bak
+MYMETA.*
+
+# patch files
+*.orig
+*.rej
+
+# profiling directory
+nytprof
+
